@@ -1,0 +1,139 @@
+/*html, body {
+ overflow: hidden;
+}
+*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#333333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-size:52px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+/*GRID*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after{
+  clear:both;
+}
+.one-half, .one-third, {
+  width: 96%;
+  float:left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
+
+
+
+
+/****Slider*****/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+
+
+
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider blockquote {  
+  max-width: 60%;
+
+
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+
+  position: center;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  height: 300px;
+  background: #ccc;
+  font-size: 18px;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 20px;
+}
+
+
