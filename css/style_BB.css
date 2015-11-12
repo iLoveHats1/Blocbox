@@ -84,6 +84,12 @@ p{
   }
 }
 
+@media (min-width: 1920px){
+  .container {
+    width:1877px;
+  }
+}
+
 /**** HEADER *****/
 
 header {
