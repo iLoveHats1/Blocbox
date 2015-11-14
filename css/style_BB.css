@@ -54,6 +54,42 @@ p{
 
 
 
+/***** MEDIA QUERIES ******/
+
+@media (max-width: 660px){
+  
+h1{
+  font-size:28px;
+  font-weight: bold;
+}
+
+h1.animated.fadeIn {
+  font-size: 30px;
+  font-weight: normal;
+  margin:65px 0 0;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 100;
+}
+
+#slider{
+  display: none;
+}
+
+}
+
+
+
+
+
 
 
 
@@ -61,6 +97,16 @@ p{
   .container {
     width: 750px;
   }
+}
+
+@media (max-width: 992px){
+  .one-half {
+    margin: 0 2% -7% 0;
+  }
+}
+
+  
+
 
 @media (min-width: 992px){
   .container{
@@ -83,6 +129,10 @@ p{
     width:1170px;
   }
 }
+
+
+
+
 
 @media (min-width: 1920px){
   .container {
@@ -156,6 +206,7 @@ header .hero p{
 }
 
 header .hero img {
+  max-width: 100%;
   display: block;
   margin:3em auto 0;
 }
@@ -304,7 +355,7 @@ header .hero img {
 
 /****Slider*****/
 
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+
 
 
 #slider {
@@ -454,7 +505,7 @@ footer .right-footer-block {
 }
 
 footer .logo40 {
-  padding: 2.35em 0;
+  padding: 0 0;
   margin: 0 auto;
   display: block;
 
