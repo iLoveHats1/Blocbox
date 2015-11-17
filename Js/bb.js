@@ -48,3 +48,10 @@ jQuery(document).ready(function ($) {
 });    
 
 
+/**** ACTIVE STATE *****/
+
+$(".left-nav .items ul li a").on('click',function(e){
+    e.preventDefault();
+    $(".left-nav li.active").removeClass("active");
+    $(this).parent().addClass("active");
+});
