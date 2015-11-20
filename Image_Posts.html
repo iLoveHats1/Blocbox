@@ -17,9 +17,13 @@
  
  </head>
  <body class="images">
+
+   <!---RESPONSIVE NAV-->
+   <a href="#" class="hamburger" id="menu">&#9776;</a>
+
    <!---LEFT NAV-->
    <nav id="left-nav" class="left-nav">   
-      <a href="#" class="site-logo"><img src="images/Logo 60px.png" alt="Blocbox"/> </a>
+      <a href="index.html" class="site-logo"><img src="images/Logo 60px.png" alt="Blocbox"/> </a>
       <div class="items">
       <p>Items</p>
       <ul>
@@ -200,6 +204,14 @@
    </main>
    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
    <script type="text/javascript" src="Js/bb.js"></script>
+   <script src="Js/dropit.js"></script>
+   <script type="text/javascript">
+      $(".menu").dropit();
+      $("#menu").click(function(){
+         $("#left-nav").toggleClass("open", 200);
+      });
+   </script>
+
 </body>
 </html>
  

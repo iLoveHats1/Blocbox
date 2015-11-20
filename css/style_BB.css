@@ -799,6 +799,30 @@ footer .logo40 {
 
 
 /***** MEDIA QUERIES -DASHBOARD ******/
+/* Mobile Devices */
+ @media (max-width:459px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content-item {
+     width:100%;
+     margin:0 2% 25px;
+     float:left;
+     display:block;
+   }
+   .content-image {
+      width:46%;
+      margin:0 2% 25px;
+      float:left;
+      display:block;
+   }
+ }
+
+
+
 /* Larger Mobile Devices */
  @media (min-width:460px) {
    .content {
@@ -812,6 +836,12 @@ footer .logo40 {
      margin:0 2% 25px;
      float:left;
      display:block;
+   }
+   .content-image {
+      width:31.33333%;
+      margin:0 1% 25px;
+      float:left;
+      display:block;
    }
  }
 /* Tablets */
@@ -829,6 +859,9 @@ footer .logo40 {
      width:31.33333%;
      margin:0 1% 25px;
    }
+   .content-image {
+     width:23%;
+     margin:0 1% 25px;
  }
 /* Laptops and Desktops */
  @media (min-width:992px) {
